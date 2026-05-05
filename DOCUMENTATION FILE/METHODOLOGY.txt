@@ -1,0 +1,59 @@
+⚙️ Methodology – Smart Number Guessing Game in C
+The development of the Smart Number Guessing Game follows a structured and modular approach to ensure clarity, efficiency, and ease of implementation. The methodology is divided into different stages, each focusing on a specific part of the system.
+🔹 1. Requirement Analysis
+Identify core features:
+User interaction (input/output)
+Difficulty levels
+Guessing logic with hints
+Score calculation
+File storage for leaderboard
+Decide constraints like number range and maximum attempts
+🔹 2. System Design
+Design the overall flow of the program using:
+Algorithm
+Flowchart
+Divide the program into modules/functions:
+Input handling
+Random number generation
+Guess checking
+Score calculation
+File operations
+👉 This ensures modular programming, making the code easy to manage and debug.
+🔹 3. Implementation
+Use C programming language to develop the system
+Apply core concepts:
+Control structures (if-else, loops)
+Functions for modularity
+Arrays and structures for storing data
+Random number generation (rand())
+Implement features step-by-step:
+Menu-driven interface
+Difficulty selection
+Guessing loop with hints
+Score calculation logic
+🔹 4. File Handling Integration
+Use file operations to store player data:
+Open file using fopen()
+Save data using fprintf()
+Read data using fscanf()
+Maintain a persistent leaderboard system
+👉 This makes the project advanced and practical
+🔹 5. Testing and Debugging
+Test all possible scenarios:
+Correct guess
+Wrong guesses
+Maximum attempts reached
+Check for input errors and edge cases
+Fix bugs and improve logic
+🔹 6. User Interface Enhancement
+Provide clear instructions to the user
+Add meaningful hints:
+“Too High”
+“Too Low”
+“Very Close”
+Include replay option for better experience
+🔹 7. Result Evaluation
+Verify:
+Game runs correctly
+Scores are calculated accurately
+Data is properly stored and retrieved

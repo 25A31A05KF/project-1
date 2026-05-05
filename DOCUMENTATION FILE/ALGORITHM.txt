@@ -1,0 +1,59 @@
+🧾 Algorithm – Smart Number Guessing Game in C
+Here’s a clear, step-by-step algorithm you can directly put into your PPT or documentation:
+🔹 Step 1: Start
+🔹 Step 2: Input Player Details
+Prompt user to enter player name
+🔹 Step 3: Display Menu
+Show options:
+Play Game
+View Leaderboard
+Exit
+Read user choice
+🔹 Step 4: If User Chooses “Play Game”
+Display difficulty levels:
+Easy (1–50)
+Medium (1–100)
+Hard (1–500)
+Read selected difficulty
+Set:
+Number range
+Maximum attempts
+🔹 Step 5: Generate Random Number
+Use random function to generate a number within selected range
+🔹 Step 6: Initialize Variables
+Set attempt count = 0
+Set score = 0
+🔹 Step 7: Start Guessing Loop
+Repeat until:
+User guesses correctly OR
+Attempts reach maximum
+Steps inside loop:
+Ask user to enter guess
+Increment attempt count
+Compare guess with generated number
+🔹 Step 8: Provide Hint
+If guess > number → Display “Too High”
+If guess < number → Display “Too Low”
+If very close → Display “Very Close”
+🔹 Step 9: Check Result
+If guess is correct:
+Display “Correct Guess”
+Calculate score based on attempts
+Go to Step 10
+Else if attempts exhausted:
+Display “Game Over” and correct number
+🔹 Step 10: Store Data in File
+Open file in append mode
+Save:
+Player name
+Score
+Attempts
+Close file
+🔹 Step 11: Ask for Replay
+If user chooses YES → Go to Step 3
+Else → Continue
+🔹 Step 12: If User Chooses Leaderboard
+Open file
+Read and display stored player data
+🔹 Step 13: End Program
+Display exit message

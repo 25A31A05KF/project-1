@@ -1,0 +1,58 @@
+START
+  ↓
+Enter Player Name
+  ↓
+Display Menu:
+1. Play Game
+2. Leaderboard
+3. Exit
+  ↓
+Read Choice
+  ↓
+┌───────────────────────────────┐
+│ Choice == 1 (Play Game?)      │
+└───────────────────────────────┘
+        ↓ Yes
+   Select Difficulty
+        ↓
+Set Range & Attempts
+        ↓
+Generate Random Number
+        ↓
+Initialize Attempts = 0
+        ↓
+┌───────────────────────────────┐
+│ Attempts < Max Attempts ?     │
+└───────────────────────────────┘
+        ↓ Yes
+   Enter Guess
+        ↓
+Attempts++
+        ↓
+┌───────────────────────────────┐
+│ Guess == Number ?             │
+└───────────────────────────────┘
+   ↓ Yes              ↓ No
+Display "Correct"   Check Hint:
+Calculate Score     - Too High
+Save to File        - Too Low
+        ↓           - Very Close
+   Ask Replay            ↓
+        ↓         Loop Back to Guess
+   Yes → Menu
+   No → End
+
+------------------------------
+
+If Choice == 2 (Leaderboard)
+        ↓
+Read File
+Display Scores
+        ↓
+Back to Menu
+
+------------------------------
+
+If Choice == 3 (Exit)
+        ↓
+END
